@@ -1,0 +1,12 @@
+"use strict";
+
+app.constant("FIREBASE_CONFIG", { // like a global variable
+    apiKey: "AIzaSyC-W7r2TFgXPENkj13lDhCfF5hKZdSBP8g",
+    authDomain: "angular-movie-history-a69c9.firebaseapp.com",
+    databaseURL: "https://angular-movie-history-a69c9.firebaseio.com",
+    projectId: "angular-movie-history-a69c9",
+    storageBucket: "",
+    messagingSenderId: "983227791216"
+  });
+
+app.constant("TMDB_CONFIG", "0d7bdc961aa566a8f292e1ed01d31dd2");

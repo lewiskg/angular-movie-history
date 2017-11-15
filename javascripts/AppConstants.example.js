@@ -8,3 +8,5 @@ app.constant("FIREBASE_CONFIG", { // like a global variable
     storageBucket: "",
     messagingSenderId: ""
   });
+
+app.constant("TMDB_CONFIG", "");
