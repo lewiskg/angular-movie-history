@@ -1,5 +1,5 @@
-<div class="text-center" id="rated">
-	<h1>My Rated Movies</h1>
+<div class="text-center" id="wishlist">
+	<h1>Wishlist</h1>
 
 <div id="movies">
 	<div ng-repeat="movie in movies" class="col-sm-6 col-md-4 movie">
@@ -10,7 +10,7 @@
 		    	<h3 class="title">{{movie.title}}</h3>
 		        <p class="overview">{{movie.overview}}</p>
 		        <p>
-		        	<p>Rating: {{movie.rating}}</p>
+		        	<button class="btn btn-default">I watched it</button>
 		        </p>
 		    </div>
      	</div>
