@@ -1,5 +1,5 @@
-"use strict";
+/* globals app: true */
 
-/* globals app: true */ // Ignore that app is defined in Gruntfile.js.  "const app" is necessary for browser to define variable
+'use strict';
 
-const app = angular.module("MovieApp", ["ngAnimate", "ngRoute", "ngSanitize"]);
+const app = angular.module("MovieApp", ["ngAnimate", "ngRoute", "ngSanitize", "star-rating"]);

@@ -1,17 +1,33 @@
-.movie {
-	.poster_path {
-		height: 335px;
-	}
+.movie{
+  .poster_path{
+    height: 333px;
+  }
 
-	h3 {
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+  h3{
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis; 
+  }
 
-	.overview {
-		height: 100px;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
+  .overview{
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    height: 100px;
+   }
+
+   .thumbnail{
+     position: relative;
+
+     .delete{
+       position: absolute;
+       right: 15px;
+       top: 15px;
+     }
+
+     .detail{
+      position: absolute;
+      left: 15px;
+      top: 15px;
+    }
+   }
 }

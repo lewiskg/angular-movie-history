@@ -1,5 +1,5 @@
 .movie .poster_path {
-  height: 335px; }
+  height: 333px; }
 
 .movie h3 {
   white-space: nowrap;
@@ -7,9 +7,20 @@
   text-overflow: ellipsis; }
 
 .movie .overview {
-  height: 100px;
   overflow: hidden;
-  text-overflow: ellipsis; }
+  text-overflow: ellipsis;
+  height: 100px; }
+
+.movie .thumbnail {
+  position: relative; }
+  .movie .thumbnail .delete {
+    position: absolute;
+    right: 15px;
+    top: 15px; }
+  .movie .thumbnail .detail {
+    position: absolute;
+    left: 15px;
+    top: 15px; }
 
 body {
   background-color: lightblue; }
